@@ -1,2 +1,2 @@
 # borisat
-a python for retrieving company public data
+a python for retrieving company public data in thai
