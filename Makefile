@@ -5,4 +5,5 @@ publish:
 	poetry publish --build
 
 generate_doc:
-	pdoc --html borisat
+	pdoc --html --output-dir docs/_build borisat
+
