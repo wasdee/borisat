@@ -2,14 +2,18 @@
 a python library for retrieving company public data in thailand. It has its own public database for caching, so, it is really fast, smart, and save lot of time and energy.
 
 ## Get Started
-```
+```shell
 pip install borisat
 ```
 
-```
+```python
 import borisat
 
-borisat.get_info(tax_id='0105558096348')
+a_valid_tax_id = tax_id = '0105558096348'
+
+if borisat.is_exist(tax_id):
+    company = borisat.get_info(tax_id=tax_id) 
+    print(company)
 
 ```
 
