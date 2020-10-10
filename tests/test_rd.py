@@ -7,7 +7,7 @@ from borisat import is_exist
 
 @pytest.fixture
 def tax_id():
-    return "0105558096348"
+    return "0994000160097"
 
 def test_get_info(tax_id):
     company = get_info(tax_id=tax_id)
