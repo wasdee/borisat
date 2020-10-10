@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "borisat"
-version = "0.1.0"
+version = "1.0.0"
 description = "a python library for retrieving company public data in thailand. It has its own public database for caching, so, it is really fast, smart, and save lot of time and energy."
 authors = ["Nutchanon Ninyawee <nutchanon@codustry.com>"]
 license = "ISC"
-repository = ""
+repository = "https://github.com/CircleOnCircles/borisat"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 # for 3.9, wait lxml to has wheel
