@@ -1,4 +1,6 @@
 # borisat
+Python Library #borisat ดึงข้อมูลชื่อและที่อยู่บริษัทจากเลขที่ประจำตัวผู้เสียภาษี 😎
+
 a python library for retrieving company public data in thailand. It has its own public database for caching, so, it is really fast, smart, and save lot of time and energy.
 
 ## Get Started
@@ -23,7 +25,7 @@ print(company)
 ```
 
 ## Why it is the way it is?
-0. [the government public api is obsolete, doc is unclear and this is 2020, and it is SOAP api. OMG](https://github.com/CircleOnCircles/rd_soap). thus, we need some kinds of modern interface.
+0. [the government public api is obsolete, doc is unclear and this is 2020, and it is SOAP api. OMG](https://github.com/CircleOnCircles/rd_soap). thus, we need some kinds of modern interface. took me a day to figure many things out.
 1. [retriving data from the government public api is F\*\*king slow in the business hours](https://github.com/CircleOnCircles/rd_soap). thus, we need some kinds of cache. a public one where who use this lib could enjoy.
 
 ### A public cache?
